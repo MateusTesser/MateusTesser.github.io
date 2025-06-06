@@ -1,0 +1,16 @@
+// GitHub Dark Syntax Highlighting
+html[data-mode='dark'],
+:root {
+  .highlight table td {
+    padding: 5px;
+  }
+  .highlight table pre {
+    margin: 0;
+  }
+  .highlight,
+  .highlight .w {
+    color: #c9d1d9;
+    background-color: #161b22;
+  }
+  /* ... rest of GitHub Dark styles ... */
+}
